@@ -111,7 +111,7 @@ void loop() {
   }
   display.setCursor(0, 0);
   display.setTextSize(3);
-  display.display();  //transfers the buffer to the display
+  display.display();  //バッファをディスプレイに転送します
   // 少し待つ
   delay(100);
 }
